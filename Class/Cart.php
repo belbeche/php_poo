@@ -4,15 +4,12 @@
 
 class Cart
 {
-
-    // Mes attributs quantité et prix total
-    private ?int $quantity;
-    private float $totalPrice;
-
-    public function __construct(int $quantity, float $totalPrice)
-    {
-        $this->quantity = $quantity;
-        $this->totalPrice = $totalPrice;
+    // PHP 8 : Promotion de constructeur
+    // Retirer les attributs, et ne pas assigner automatiquement les valeurs
+    public function __construct(
+        private int $quantity,
+        private float $totalPrice
+    ) {
     }
 
     public function getTotalPrice(): float

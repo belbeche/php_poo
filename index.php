@@ -1,5 +1,4 @@
 <?php
-
 require_once('./Class/Cart.php');
 
 $cart = new Cart(3, 5);
