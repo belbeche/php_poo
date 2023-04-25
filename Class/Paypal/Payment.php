@@ -8,6 +8,6 @@ class Payment
 {
     public function __construct()
     {
-        // var_dump(new DateTime());
+        var_dump(new DateTime());
     }
 }

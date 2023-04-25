@@ -3,7 +3,7 @@
     "description": "a simple poo project",
     "autoload": {
         "psr-4": {
-            "Wbelb\\Poo\\": "src/"
+            "Class\\": "Class/"
         }
     },
     "authors": [
@@ -13,6 +13,7 @@
         }
     ],
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
+        "mistic100/randomcolor": "^1.0"
     }
 }
